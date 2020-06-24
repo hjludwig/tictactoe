@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+
+<body>
+    <div class="start-screen">
+        <h1>Ready?</h1>
+        <button type="button" class="start">Let's Play</button>
+    </div>
+    <div class="new-game hidden">
+        <div class="container">
+            <h1>New Game?</h1>
+            <button class="play-again">Let's Play Again</button>
+        </div>
+    </div>
+    <div class="game-board">
+        <table>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <div class="hidden alert">
+        <div class="container">
+            <p>Oops! It looks like that square is taken.</p>
+            <p>Please choose a different square!</p>
+            <button>My bad</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="test.js"></script>
+</body>
+
+</html>
